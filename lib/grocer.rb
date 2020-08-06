@@ -17,8 +17,8 @@ def consolidate_cart(cart)
   names = []
   count = Hash.new(0)
   i = 0 
-  cart.each do |item|
-    count[item] += 1
+  cart.each do |thing|
+    count[thing] += 1
   end
   
   binding.pry
