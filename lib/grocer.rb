@@ -5,9 +5,7 @@ def find_item_by_name_in_collection(name, collection)
   # Consult README for inputs and outputs
   collection.each do |item|
     return item if item[:item] == name
-    else
-      return NIL
-    end  
+    else return NIL
   end   
 end
 
