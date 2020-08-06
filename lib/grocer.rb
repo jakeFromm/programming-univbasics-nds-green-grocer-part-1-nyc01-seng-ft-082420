@@ -16,7 +16,7 @@ def consolidate_cart(cart)
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
   count = []
   cart.each do |item|
-    count[item][:item] += 1
+    count << [item][:item]
   end   
   binding.pry
 end
