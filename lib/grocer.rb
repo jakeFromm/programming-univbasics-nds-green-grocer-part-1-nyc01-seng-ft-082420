@@ -18,6 +18,7 @@ def consolidate_cart(cart)
   count = {}
   
   cart.each do |item|
+    
     binding.pry
   end   
   binding.pry
