@@ -6,7 +6,7 @@ def find_item_by_name_in_collection(name, collection)
   collection.each do |item|
     item.each do |k, v|
       binding.pry
-      v == name ? item
+      return item if v == name
     end
   end
   nil
