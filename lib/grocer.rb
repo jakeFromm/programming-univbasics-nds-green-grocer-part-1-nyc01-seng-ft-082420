@@ -17,7 +17,7 @@ def consolidate_cart(cart)
   receipt = []
   count = {}
   cart.each do |item|
-    
+    count[word += 1]
   end   
 
 end
