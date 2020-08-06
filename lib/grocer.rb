@@ -25,6 +25,7 @@ def consolidate_cart(cart)
     receipt << item
   end  
   receipt
+  binding.pry
 end
 
 
