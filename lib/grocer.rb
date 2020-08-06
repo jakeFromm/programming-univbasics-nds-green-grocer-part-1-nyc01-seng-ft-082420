@@ -19,7 +19,9 @@ def consolidate_cart(cart)
   cart.each do |item|
     names << item[:item]
   end
-  
+  names.each do |name|
+    
+  end   
   binding.pry
 end
 
