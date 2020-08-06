@@ -23,9 +23,9 @@ def consolidate_cart(cart)
   end
   count.each do |item, count|
     item[:count] = count
-    
+    receipt << item
   end  
-  
+  receipt
 end
 
 
