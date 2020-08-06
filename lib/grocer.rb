@@ -15,6 +15,7 @@ def consolidate_cart(cart)
   # REMEMBER: This returns a new Array that represents the cart. Don't merely
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
   names = []
+  receipt = []
   count = Hash.new(0)
   i = 0 
   cart.each do |item|
@@ -23,9 +24,7 @@ def consolidate_cart(cart)
   names.each do |name|
     count[name] += 1
   end
-  while i < cart.length do
-    
-  end   
+  
 
   binding.pry
 end
