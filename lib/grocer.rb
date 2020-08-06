@@ -21,7 +21,7 @@ def consolidate_cart(cart)
     count[item] += 1
     binding.pry
   end
-  
+  count.each do |item, count|
   
 end
 
