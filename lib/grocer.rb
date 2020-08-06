@@ -16,7 +16,9 @@ def consolidate_cart(cart)
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
   receipt = []
   count = {}
-  
+  cart.each do |item|
+    
+  end   
 
 end
 
