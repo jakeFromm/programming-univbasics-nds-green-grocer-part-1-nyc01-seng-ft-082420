@@ -18,12 +18,11 @@ def consolidate_cart(cart)
   count = Hash.new(0)
   i = 0 
   cart.each do |item|
-    names << item[:item]
+    names << item
   end
   names.each do |name|
     count[name] += 1
   end
-  receipt = names.map{|item| }
 
   binding.pry
 end
