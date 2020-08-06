@@ -8,8 +8,8 @@ def find_item_by_name_in_collection(name, collection)
       binding.pry
       v == name ? item
     end
-    nil
-  end   
+  end
+  nil
 end
 
 def consolidate_cart(cart)
