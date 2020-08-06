@@ -16,12 +16,14 @@ def consolidate_cart(cart)
   # change `cart` (i.e. mutate) it. It's easier to return a new thing.
   names = []
   count = Hash.new(0)
+  i = 0 
   cart.each do |item|
     names << item[:item]
   end
   names.each do |name|
     count[name] += 1
-  end   
+  end
+  
   binding.pry
 end
 
